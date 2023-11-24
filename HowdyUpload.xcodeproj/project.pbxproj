@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BB7E5C2B112BEE00770DB3 /* HowdyUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB7E5B2B112BEE00770DB3 /* HowdyUploadApp.swift */; };
+		23BB7E5E2B112BEE00770DB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB7E5D2B112BEE00770DB3 /* ContentView.swift */; };
+		23BB7E602B112BF000770DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BB7E5F2B112BF000770DB3 /* Assets.xcassets */; };
+		23BB7E632B112BF000770DB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BB7E622B112BF000770DB3 /* Preview Assets.xcassets */; };
+		23BB7E6D2B112BF000770DB3 /* HowdyUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB7E6C2B112BF000770DB3 /* HowdyUploadTests.swift */; };
+		23BB7E772B112BF000770DB3 /* HowdyUploadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB7E762B112BF000770DB3 /* HowdyUploadUITests.swift */; };
+		23BB7E792B112BF000770DB3 /* HowdyUploadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB7E782B112BF000770DB3 /* HowdyUploadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BB7E692B112BF000770DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BB7E502B112BEE00770DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BB7E572B112BEE00770DB3;
+			remoteInfo = HowdyUpload;
+		};
+		23BB7E732B112BF000770DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BB7E502B112BEE00770DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BB7E572B112BEE00770DB3;
+			remoteInfo = HowdyUpload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BB7E582B112BEE00770DB3 /* HowdyUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowdyUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BB7E5B2B112BEE00770DB3 /* HowdyUploadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUploadApp.swift; sourceTree = "<group>"; };
+		23BB7E5D2B112BEE00770DB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23BB7E5F2B112BF000770DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23BB7E622B112BF000770DB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23BB7E682B112BF000770DB3 /* HowdyUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BB7E6C2B112BF000770DB3 /* HowdyUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUploadTests.swift; sourceTree = "<group>"; };
+		23BB7E722B112BF000770DB3 /* HowdyUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowdyUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BB7E762B112BF000770DB3 /* HowdyUploadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUploadUITests.swift; sourceTree = "<group>"; };
+		23BB7E782B112BF000770DB3 /* HowdyUploadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowdyUploadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BB7E552B112BEE00770DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E652B112BF000770DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E6F2B112BF000770DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BB7E4F2B112BEE00770DB3 = {
+			isa = PBXGroup;
+			children = (
+				23BB7E5A2B112BEE00770DB3 /* HowdyUpload */,
+				23BB7E6B2B112BF000770DB3 /* HowdyUploadTests */,
+				23BB7E752B112BF000770DB3 /* HowdyUploadUITests */,
+				23BB7E592B112BEE00770DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BB7E592B112BEE00770DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BB7E582B112BEE00770DB3 /* HowdyUpload.app */,
+				23BB7E682B112BF000770DB3 /* HowdyUploadTests.xctest */,
+				23BB7E722B112BF000770DB3 /* HowdyUploadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BB7E5A2B112BEE00770DB3 /* HowdyUpload */ = {
+			isa = PBXGroup;
+			children = (
+				23BB7E5B2B112BEE00770DB3 /* HowdyUploadApp.swift */,
+				23BB7E5D2B112BEE00770DB3 /* ContentView.swift */,
+				23BB7E5F2B112BF000770DB3 /* Assets.xcassets */,
+				23BB7E612B112BF000770DB3 /* Preview Content */,
+			);
+			path = HowdyUpload;
+			sourceTree = "<group>";
+		};
+		23BB7E612B112BF000770DB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23BB7E622B112BF000770DB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23BB7E6B2B112BF000770DB3 /* HowdyUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				23BB7E6C2B112BF000770DB3 /* HowdyUploadTests.swift */,
+			);
+			path = HowdyUploadTests;
+			sourceTree = "<group>";
+		};
+		23BB7E752B112BF000770DB3 /* HowdyUploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23BB7E762B112BF000770DB3 /* HowdyUploadUITests.swift */,
+				23BB7E782B112BF000770DB3 /* HowdyUploadUITestsLaunchTests.swift */,
+			);
+			path = HowdyUploadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BB7E572B112BEE00770DB3 /* HowdyUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BB7E7C2B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUpload" */;
+			buildPhases = (
+				23BB7E542B112BEE00770DB3 /* Sources */,
+				23BB7E552B112BEE00770DB3 /* Frameworks */,
+				23BB7E562B112BEE00770DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowdyUpload;
+			productName = HowdyUpload;
+			productReference = 23BB7E582B112BEE00770DB3 /* HowdyUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BB7E672B112BF000770DB3 /* HowdyUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BB7E7F2B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUploadTests" */;
+			buildPhases = (
+				23BB7E642B112BF000770DB3 /* Sources */,
+				23BB7E652B112BF000770DB3 /* Frameworks */,
+				23BB7E662B112BF000770DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BB7E6A2B112BF000770DB3 /* PBXTargetDependency */,
+			);
+			name = HowdyUploadTests;
+			productName = HowdyUploadTests;
+			productReference = 23BB7E682B112BF000770DB3 /* HowdyUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23BB7E712B112BF000770DB3 /* HowdyUploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BB7E822B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUploadUITests" */;
+			buildPhases = (
+				23BB7E6E2B112BF000770DB3 /* Sources */,
+				23BB7E6F2B112BF000770DB3 /* Frameworks */,
+				23BB7E702B112BF000770DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BB7E742B112BF000770DB3 /* PBXTargetDependency */,
+			);
+			name = HowdyUploadUITests;
+			productName = HowdyUploadUITests;
+			productReference = 23BB7E722B112BF000770DB3 /* HowdyUploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BB7E502B112BEE00770DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					23BB7E572B112BEE00770DB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					23BB7E672B112BF000770DB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 23BB7E572B112BEE00770DB3;
+					};
+					23BB7E712B112BF000770DB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 23BB7E572B112BEE00770DB3;
+					};
+				};
+			};
+			buildConfigurationList = 23BB7E532B112BEE00770DB3 /* Build configuration list for PBXProject "HowdyUpload" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BB7E4F2B112BEE00770DB3;
+			productRefGroup = 23BB7E592B112BEE00770DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BB7E572B112BEE00770DB3 /* HowdyUpload */,
+				23BB7E672B112BF000770DB3 /* HowdyUploadTests */,
+				23BB7E712B112BF000770DB3 /* HowdyUploadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BB7E562B112BEE00770DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BB7E632B112BF000770DB3 /* Preview Assets.xcassets in Resources */,
+				23BB7E602B112BF000770DB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E662B112BF000770DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E702B112BF000770DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BB7E542B112BEE00770DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BB7E5E2B112BEE00770DB3 /* ContentView.swift in Sources */,
+				23BB7E5C2B112BEE00770DB3 /* HowdyUploadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E642B112BF000770DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BB7E6D2B112BF000770DB3 /* HowdyUploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BB7E6E2B112BF000770DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BB7E772B112BF000770DB3 /* HowdyUploadUITests.swift in Sources */,
+				23BB7E792B112BF000770DB3 /* HowdyUploadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BB7E6A2B112BF000770DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BB7E572B112BEE00770DB3 /* HowdyUpload */;
+			targetProxy = 23BB7E692B112BF000770DB3 /* PBXContainerItemProxy */;
+		};
+		23BB7E742B112BF000770DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BB7E572B112BEE00770DB3 /* HowdyUpload */;
+			targetProxy = 23BB7E732B112BF000770DB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23BB7E7A2B112BF000770DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23BB7E7B2B112BF000770DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23BB7E7D2B112BF100770DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HowdyUpload/Preview Content\"";
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUpload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23BB7E7E2B112BF100770DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HowdyUpload/Preview Content\"";
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUpload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23BB7E802B112BF100770DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowdyUpload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HowdyUpload";
+			};
+			name = Debug;
+		};
+		23BB7E812B112BF100770DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowdyUpload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HowdyUpload";
+			};
+			name = Release;
+		};
+		23BB7E832B112BF100770DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowdyUpload;
+			};
+			name = Debug;
+		};
+		23BB7E842B112BF100770DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY6D88PP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peacemakers-Club.HowdyUploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowdyUpload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BB7E532B112BEE00770DB3 /* Build configuration list for PBXProject "HowdyUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BB7E7A2B112BF000770DB3 /* Debug */,
+				23BB7E7B2B112BF000770DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BB7E7C2B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BB7E7D2B112BF100770DB3 /* Debug */,
+				23BB7E7E2B112BF100770DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BB7E7F2B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BB7E802B112BF100770DB3 /* Debug */,
+				23BB7E812B112BF100770DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BB7E822B112BF100770DB3 /* Build configuration list for PBXNativeTarget "HowdyUploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BB7E832B112BF100770DB3 /* Debug */,
+				23BB7E842B112BF100770DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BB7E502B112BEE00770DB3 /* Project object */;
+}
