@@ -6,18 +6,18 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink("Upload Post", destination: UploadPostView())
+            
+            }
+            .navigationBarTitle("Uploader App")
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
