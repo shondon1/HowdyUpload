@@ -11,7 +11,8 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink("Upload Post", destination: UploadPostView())
-            
+                NavigationLink("Upload comment", destination: UploadMessageView())
+                NavigationLink("Edit Profile", destination: EditProfile())
             }
             .navigationBarTitle("Uploader App")
         }
